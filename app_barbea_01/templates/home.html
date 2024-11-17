@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block body %}
+
+    <head>
+    <title>Página do Barbeiro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+
+    <div class="container mt-2">
+        <div class="jumbotron">
+            <span class="display-10">Bem-vindo à nossa Barbearia!</span><hr>
+            <img src="static/barbearia.jpg" class="img-fluid rounded" alt="Imagem do Barbeiro" width="500" height="500">
+            <hr class="my-4">
+            <p>Aqui você pode adicionar mais informações sobre sua barbearia.</p>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+            <span class="text-muted">Endereço da Barbearia | Contato: (xx) xxxx-xxxx</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+{% endblock %}
